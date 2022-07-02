@@ -48,7 +48,7 @@ nav ul li a:hover {
     color: #FFFFFF;
 }
 
-h3 {
+.headings {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
@@ -57,7 +57,7 @@ h3 {
     letter-spacing: 0.1px;
 }
 
-h1 {
+.content {
     margin: 0 auto;
     font-weight: 700;
     font-size: 58px;
@@ -68,7 +68,7 @@ h1 {
     height: 160px;
 }
 
-h4 {
+.content2{
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
@@ -152,7 +152,8 @@ h4 {
     opacity: 0.8;
 }
 
-.wrapper {
+/*create an account*/
+.createaccountsection {
     position: absolute;
     width: 1440px;
     height: 806.99px;
@@ -160,7 +161,7 @@ h4 {
     top: 1546px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .darkOrange {
@@ -192,9 +193,115 @@ h4 {
     color: #737373;
 }
 
-.right {
+.right, .exploreLeft {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
- 
+    gap: 7px;
+
+}
+
+.checkoutsection {
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0px;
+    top: 2935px;
+    display: flex;
+    align-items: center;
+}
+
+.exploresection {
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0px;
+    top: 2202px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    padding-left: 100px;
+}
+
+.exploreLeft {
+    padding-left: 134px;
+}
+
+/*download*/
+.download {
+    position: absolute;
+    width: 1440px;
+    height: 516px;
+    left: 0px;
+    top: 3688px;
+    background: url(image/appbg.png);
+    color: #FFFFFF;
+}
+
+.appcontent {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 145px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+}
+
+.appBtn a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.appBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orangebtn {
+    padding: 18px 31px;
+    width: 142px;
+    height: 64px;
+    background-color: #FA4A0C;
+    border-radius: 10px;
+}
+
+.whitebtn {
+    width: 173px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 16px 45px;
+}
+/* footer */
+.footer{
+position: absolute;
+width: 1210px;
+height: 133px;
+left: 115px;
+top: 4236.9px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:34px;    
 }
