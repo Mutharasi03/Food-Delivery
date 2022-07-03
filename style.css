@@ -46,9 +46,7 @@ body {
     height: 719px;
     background: url(image/herobg.png);
     background-repeat: no-repeat;
-
-    background-size: cover;
-  
+    background-size: cover;  
     color: #FFFFFF;
 } 
 
@@ -218,9 +216,10 @@ body {
 
 .download {
     width: 100%;
-    height: 100vh;
+    min-height:550px;
     background: url(image/appbg.png);
     background-repeat: no-repeat;
+ 
     color: #FFFFFF;
 }
 
@@ -272,15 +271,12 @@ body {
     border-radius: 10px;
     padding: 16px 45px;
 }
-/*  
+
 .footer {
-    position: absolute; 
     height: 133px;
-    left: 115px;
-    top: 4236.9px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
 }
 
 .social {
@@ -288,7 +284,7 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 34px;
-} */
+} 
 @media only screen and (max-width:480px)
 {
     .logo{
@@ -419,4 +415,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+.download{
+    background: none;
+    background-color: #252B42;
+    padding: 0 1rem;
+}
+.appcontent{
+    padding-top: 3rem;
+}
+.logos{
+    display: none;
+}
+.footer{
+    display: flex;
+flex-direction: column;}
+
 }
