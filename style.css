@@ -157,7 +157,7 @@ body {
 } 
 
 
-.createaccountsection {
+.wrapper {
     display: flex;
     align-items: center;
 
@@ -203,38 +203,22 @@ body {
 .left img{
     width: 100%;
 }
-/*
-.checkoutsection {
-    position: absolute;
+.exploreRight img{
+        width: 100%;
+    }
 
-    height: 806.99px;
-    left: 0px;
-    top: 2935px;
-    display: flex;
-    align-items: center;
+.exploreRight {
+    width: 100%;
+    height: auto;
+    
 }
-
-.exploresection {
-    position: absolute;
-
-    height: 806.99px;
-    left: 0px;
-    top: 2202px;
-    display: flex;
-    align-items: center;
-}
-
-.exploreLeft {
+.exploreLeft{
     padding-left: 134px;
 }
 
 .download {
-    position: absolute;
     width: 100%;
     height: 100vh;
-
-    left: 0px;
-    top: 3688px;
     background: url(image/appbg.png);
     background-repeat: no-repeat;
     color: #FFFFFF;
@@ -243,9 +227,9 @@ body {
 .appcontent {
 
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.4rem;
     line-height: 57px;
-    margin-top: 145px;
+    padding-top: 8rem;
     text-align: center;
     letter-spacing: 0.2px;
 
@@ -253,7 +237,7 @@ body {
 
 .appBtn a {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
@@ -288,7 +272,7 @@ body {
     border-radius: 10px;
     padding: 16px 45px;
 }
-
+/*  
 .footer {
     position: absolute; 
     height: 133px;
@@ -402,14 +386,33 @@ body {
     flex-direction: column-reverse;
   
 }
-.right
+.right 
 {
     gap:1.9rem;
     padding: 0 2rem;
     text-align: center;
 }
+.left img{
+   padding-left: 15%;
+}
 .darkOrange{
     text-align: center;
     margin: 0 auto;
+}
+.exploresection{
+    display: block;
+}
+.exploreLeft{
+    padding: 0;
+    gap:1.9rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+.exploreRight{
+    padding-left: 15%;
+}
+.checkoutsection{
+    display: flex;
+    flex-direction: column-reverse;
 }
 }
