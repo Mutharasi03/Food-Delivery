@@ -1,5 +1,5 @@
 * {
-    
+
     box-sizing: border-box;
 }
 
@@ -10,17 +10,19 @@ body {
     font-style: normal;
 }
 
-.navbar{
+.navbar {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
 }
-.navlist{
+
+.navlist {
     list-style-type: none;
 }
-.navlist .navitem{
+
+.navlist .navitem {
     display: inline-block;
-    padding:1rem 2rem;
+    padding: 1rem 2rem;
 }
 
 
@@ -36,19 +38,21 @@ body {
 
 .navbar a:hover {
     color: #FA4A0C;
-} 
-.menuline{
+}
+
+.menuline {
     display: none;
 }
- .heroSection {
-    
-   
+
+.heroSection {
+
+
     height: 719px;
     background: url(image/herobg.png);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
     color: #FFFFFF;
-} 
+}
 
 .headings {
     padding-top: 3rem;
@@ -113,37 +117,40 @@ body {
     border: 1px solid #FFFFFF;
     border-radius: 30px;
 }
-.mob{
+
+.mob {
     width: 100%;
-    height: 700px;  
+    height: 700px;
     display: flex;
-   
+
 }
- .imgone {
-     width: 100%;
+
+.imgone {
+    width: 100%;
     padding-left: 20%;
-    margin-top: -80px;   
+    margin-top: -80px;
 }
 
 .imgtwo {
     width: 100%;
     margin-top: 10%;
     margin-left: -16%;
-  
-} 
-.hr{
+
+}
+
+.hr {
     margin-top: 550px;
-    
+
 }
 
 .horizontalLine {
-   
+
     margin: 0 auto;
     width: 70%;
     border: 3px solid #E4E4E4;
 }
 
- .appworks {
+.appworks {
     padding: 4rem 0;
     font-weight: 600;
     font-size: 3rem;
@@ -152,7 +159,7 @@ body {
     color: #000000;
     opacity: 0.8;
     text-align: center;
-} 
+}
 
 
 .wrapper {
@@ -194,32 +201,36 @@ body {
     gap: 7px;
 
 }
-.left{
+
+.left {
     width: 100%;
     height: auto;
 }
-.left img{
+
+.left img {
     width: 100%;
 }
-.exploreRight img{
-        width: 100%;
-    }
+
+.exploreRight img {
+    width: 100%;
+}
 
 .exploreRight {
     width: 100%;
     height: auto;
-    
+
 }
-.exploreLeft{
+
+.exploreLeft {
     padding-left: 134px;
 }
 
 .download {
     width: 100%;
-    min-height:550px;
+    min-height: 550px;
     background: url(image/appbg.png);
     background-repeat: no-repeat;
- 
+
     color: #FFFFFF;
 }
 
@@ -260,7 +271,7 @@ body {
     padding: 18px 31px;
     width: 142px;
     height: 64px;
-    background-color: #FA4A0C;
+    background-color: #af8474;
     border-radius: 10px;
 }
 
@@ -276,7 +287,7 @@ body {
     height: 133px;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
 .social {
@@ -284,33 +295,39 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 34px;
-} 
-@media only screen and (max-width:480px)
-{
-    .logo{
-     
-       width: 100%;
-       margin-left: 0.8rem;
-       margin-top: 0.8rem;
+}
+
+@media only screen and (max-width:480px) {
+    .logo {
+
+        width: 100%;
+        margin-left: 0.8rem;
+        margin-top: 0.8rem;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
         position: relative;
     }
-    .menuline{
+
+    .menuline {
         display: block;
         position: absolute;
         right: 2rem;
         top: 4rem;
     }
-    .navlist .navitem{
+
+    .navlist .navitem {
         display: none;
     }
+
     /* herosection */
-    .heroSection{
+    .heroSection {
         background: none;
-        background: #FAFAFA;;
+        background: #FAFAFA;
+        ;
     }
+
     .headings {
         font-size: 1rem;
         color: #737373;
@@ -343,91 +360,108 @@ body {
     .white a {
         color: #FA4A0C;
     }
- /*mobsection*/
- .imgone img {
-    width: 330px;
-    height: 451px;
-}
 
-.imgone {
-    
-    margin: 0 -30px;
-    padding: 0;
-   
-} 
+    /*mobsection*/
+    .imgone img {
+        width: 330px;
+        height: 451px;
+    }
 
-.imgtwo img{
-    width: 169px;
-    height: 300px;
-}
+    .imgone {
 
-.imgtwo {
-   margin-left: -90px; 
-   margin-top: 100px;
-} 
-.hr{
-   margin-top: 400px;
-}
-.horizontalLine {
-    width: 100%;
-}
-.appworks{
-    margin-top: -9rem;
-    font-size: 1.6rem;
-}
-/* create account section */
-.createaccountsection{
-    
-    display: flex;
-    flex-direction: column-reverse;
-  
-}
-.right 
-{
-    gap:1.9rem;
-    padding: 0 2rem;
-    text-align: center;
-}
-.left img{
-   padding-left: 15%;
-}
-.darkOrange{
-    text-align: center;
-    margin: 0 auto;
-}
-.exploresection{
-    display: block;
-}
-.exploreLeft{
-    padding: 0;
-    gap:1.9rem;
-    padding: 0 2rem;
-    text-align: center;
-}
-.exploreRight{
-    padding-left: 15%;
-}
-.checkoutsection{
-    display: flex;
-    flex-direction: column-reverse;
-}
-.appBtn{
-    display: flex;
-    flex-direction: column;
-}
-.download{
-    background: none;
-    background-color: #252B42;
-    padding: 0 1rem;
-}
-.appcontent{
-    padding-top: 3rem;
-}
-.logos{
-    display: none;
-}
-.footer{
-    display: flex;
-flex-direction: column;}
+        margin: 0 -30px;
+        padding: 0;
+
+    }
+
+    .imgtwo img {
+        width: 169px;
+        height: 300px;
+    }
+
+    .imgtwo {
+        margin-left: -90px;
+        margin-top: 100px;
+    }
+
+    .hr {
+        margin-top: 400px;
+    }
+
+    .horizontalLine {
+        width: 100%;
+    }
+
+    .appworks {
+        margin-top: -9rem;
+        font-size: 1.6rem;
+    }
+
+    /* create account section */
+    .createaccountsection {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .right {
+        gap: 1.9rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .left img {
+        padding-left: 15%;
+    }
+
+    .darkOrange {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .exploresection {
+        display: block;
+    }
+
+    .exploreLeft {
+        padding: 0;
+        gap: 1.9rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .exploreRight {
+        padding-left: 15%;
+    }
+
+    .checkoutsection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .appBtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .download {
+        background: none;
+        background-color: #252B42;
+        padding: 0 1rem;
+    }
+
+    .appcontent {
+        padding-top: 3rem;
+    }
+
+    .logos {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
