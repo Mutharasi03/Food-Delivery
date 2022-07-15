@@ -398,7 +398,7 @@ body {
     }
 
     /* create account section */
-    .createaccountsection {
+    .createAccountSection {
 
         display: flex;
         flex-direction: column-reverse;
@@ -420,7 +420,7 @@ body {
         margin: 0 auto;
     }
 
-    .exploresection {
+    .exploreSection {
         display: block;
     }
 
@@ -435,7 +435,7 @@ body {
         padding-left: 15%;
     }
 
-    .checkoutsection {
+    .checkoutSection {
         display: flex;
         flex-direction: column-reverse;
     }
