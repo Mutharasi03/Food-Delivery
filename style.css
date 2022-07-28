@@ -2,7 +2,9 @@
 
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     padding: 0;
     margin: 0;
@@ -16,11 +18,8 @@ body {
     align-items: center;
 }
 
-.navlist {
-    list-style-type: none;
-}
 
-.navlist .navitem {
+ .navitem {
     display: inline-block;
     padding: 1rem 2rem;
 }
@@ -38,7 +37,7 @@ body {
 
 .navbar a:hover {
     color: #FA4A0C;
-}
+} 
 
 .menuline {
     display: none;
@@ -199,9 +198,11 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 7px;
-
 }
-
+.rightContent{
+    
+    margin-right: 5rem;
+}
 .left {
     width: 100%;
     height: auto;
@@ -317,17 +318,29 @@ body {
         right: 2rem;
         top: 4rem;
     }
-
-    .navlist .navitem {
-        display: none;
+   .navitem {
+        display: none;  
+        text-align: center;
+       
     }
+    .navlist{
+        background-color: #252B42;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+    .active{
+        display: block;
+    }
+    .navbar a{
+        color: #ffffff;
+    } 
 
     /* herosection */
     .heroSection {
         background: none;
         background: #FAFAFA;
-        ;
-    }
+         }
 
     .headings {
         font-size: 1rem;
@@ -435,7 +448,9 @@ body {
     .exploreRight {
         padding-left: 15%;
     }
-
+    .rightContent{
+        margin-right: 0;
+    }
     .checkoutSection {
         display: flex;
         flex-direction: column-reverse;
