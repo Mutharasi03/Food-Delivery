@@ -226,11 +226,11 @@ body {
 }
 
 .download {
-    width: 100%;
+   width: 100%;
     min-height: 550px;
     background: url(image/appbg.png);
     background-repeat: no-repeat;
-
+    background-size:cover;
     color: #FFFFFF;
 }
 
@@ -288,6 +288,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 
 .social {
