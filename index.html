@@ -6,29 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/footerlogo.png" type="image">
+   
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Food Delivery</title>
 </head>
 
 <body>
-    <header>
+    <header id="homepage">
         <div class="home">
             <nav class="navbar">
                 <div class="logo">
                     <img src="image/logo.png" alt="logo">
                 </div>
-                <ul class="navlist">
+                <ul class="navlist" >
                     <li class="navitem"><a href="#">Home</a></li>
 
-                    <li class="navitem"><a href="#">Product</a></li>
+                    <li class="navitem"><a href="#faq">Faq</a></li>
 
-                    <li class="navitem"><a href="#">Faq</a></li>
+                    <li class="navitem"><a href="#downloadpage">Download</a></li>
 
-                    <li class="navitem"><a href="#">Contact</a></li>
+                    <li class="navitem"><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="menuline">
-                    <img src="image/menubar.png" alt="">
+                    <img class="toggle" src="image/menubar.png" alt="toggle">
                 </div>
             </nav>
             <!--end of navigation -->
@@ -55,11 +56,11 @@
         <div class="appworks">How the app works</div>
     </div>
     <!-- end of the section -->
-    <div class="createAccountSection wrapper">
+    <div class="createAccountSection wrapper" id="faq">
         <div class="left">
             <img src="image/mob3.png" alt="mobimgthree">
         </div>
-        <div class="right">
+        <div class="right rightContent">
             <div class="darkOrange">Create an account</div>
             <div class="dark">Create/login to an existing
                 account to get started</div>
@@ -80,11 +81,12 @@
             <img src="image/mob4.png" alt="mobimgfour">
         </div>
     </div>
+     <!-- end of the explore section -->
     <div class=" checkoutSection wrapper">
         <div class="left checkout">
             <img src="image/mob5.png" alt="mobimgfive">
         </div>
-        <div class="right checkout ">
+        <div class="right checkout rightContent">
             <div class="darkOrange">Check</div>
             <div class="dark">When you done check out
                 and get it delivered.</div>
@@ -92,7 +94,8 @@
                 delivered with ease.</div>
         </div>
     </div>
-    <div class="download">
+     <!-- end of the check out section -->
+    <div class="download" id="downloadpage">
         <h2 class="appcontent">Download the app now.</h2>
         <h4 class="content2 ">Available on your favorite store. Start your premium experience now</h4>
         <div class="appBtn">
@@ -104,7 +107,8 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
+     <!-- end of the download section -->
+    <footer class="footer" id="contact"> 
         <div class="logos">
             <img src="image/footerlogo.png" alt="footerlogo">
         </div>
@@ -123,6 +127,7 @@
             Copywright 2020 Bella Onojie.com
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
