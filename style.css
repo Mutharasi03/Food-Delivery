@@ -38,7 +38,13 @@ body {
 .navbar a:hover {
     color: #FA4A0C;
 } 
-
+.navbar{
+    position:fixed;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    z-index: 7000;
+}
 .menuline {
     display: none;
 }
@@ -139,7 +145,7 @@ body {
 
 .hr {
     margin-top: 550px;
-
+    z-index: -4;
 }
 
 .horizontalLine {
@@ -158,6 +164,7 @@ body {
     color: #000000;
     opacity: 0.8;
     text-align: center;
+    z-index: -3;
 }
 
 
@@ -321,13 +328,15 @@ body {
    .navitem {
         display: none;  
         text-align: center;
+        
        
     }
     .navlist{
         background-color: #252B42;
         padding: 0;
         display: block;
-        width: 100%;
+        width: 100%;    
+       
     }
     .active{
         display: block;
@@ -335,7 +344,6 @@ body {
     .navbar a{
         color: #ffffff;
     } 
-
     /* herosection */
     .heroSection {
         background: none;
