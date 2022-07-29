@@ -14,4 +14,4 @@ Screenshot:
 Mobile Screenshot:
 
 
-![mob](https://user-images.githubusercontent.com/88454070/181514906-417935ef-a3ee-44bb-acb1-5f22b3e6ed49.png)                                                  ![mobv](https://user-images.githubusercontent.com/88454070/181515130-2913bdcb-6fcb-42b8-ab61-dddb12c3639c.png)           
+![mob](https://user-images.githubusercontent.com/88454070/181514906-417935ef-a3ee-44bb-acb1-5f22b3e6ed49.png)                                               
